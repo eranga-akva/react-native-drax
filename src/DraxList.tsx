@@ -363,8 +363,8 @@ const DraxListUnforwarded = <T extends unknown>(
 			if (scrollIntervalRef.current) {
 				return;
 			}
-			doScroll();
-			scrollIntervalRef.current = setInterval(doScroll, 250);
+			// doScroll();
+			// scrollIntervalRef.current = setInterval(doScroll, 250);
 		},
 		[doScroll],
 	);
